@@ -1,0 +1,135 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: 'Inter';
+}
+
+.track-row {
+  @apply grid grid-flow-col grid-cols-12
+}
+
+.track-header {
+  @apply flex flex-row items-center col-span-2 px-5 py-2 bg-grey-4 text-sm font-bold text-black-1
+}
+
+.track-header-item {
+  @apply flex flex-row items-center justify-center px-5 py-2 bg-grey-4 text-center text-sm font-bold text-black-1
+}
+
+.track-body-header {
+  @apply col-span-2 flex flex-row items-center px-5 py-3 bg-grey-4 text-sm font-normal text-black-1
+}
+
+.track-body-item {
+  @apply flex flex-row items-center justify-center py-2 px-2 text-center text-sm font-normal bg-grey-4
+}
+
+.race-table-header {
+  @apply grid grid-cols-14
+}
+
+.race-table-header-item-1 {
+  @apply p-5 text-black-2 text-base font-bold bg-grey-4
+}
+
+.race-table-header-item-2 {
+  @apply col-span-2 p-5 text-black-2 text-base font-bold bg-grey-4
+}
+
+.race-table-body {
+  @apply grid grid-flow-row gap-[1px]
+}
+
+.race-table-row {
+  @apply grid grid-cols-14
+}
+
+.race-table-col-1 {
+  @apply p-5 text-black-2 text-base font-normal leading-6 bg-grey-4
+}
+
+.race-table-col-2 {
+  @apply col-span-2 p-5 text-black-2 text-base font-normal leading-6 bg-grey-4
+}
+
+.selection-table-header {
+  @apply grid grid-cols-12
+}
+
+.selection-table-row {
+  @apply grid grid-cols-12
+}
+
+.chart-dropdown-button {
+  @apply text-black-2 bg-white font-medium rounded-[5px] border border-grey-1 text-sm pl-4 py-2.5 flex flex-row justify-between items-center w-[200px] h-8
+}
+
+.horse-header-core {
+  @apply flex flex-row items-center justify-center col-span-1 row-span-1 leading-6 border-t border-grey-2 text-xs py-3
+}
+
+.horse-header-normal {
+  @apply horse-header-core font-normal
+}
+
+.horse-header {
+  @apply horse-header-core font-bold
+}
+
+.horse-item-normal-black {
+  @apply horse-header-normal text-black-2
+}
+
+.horse-header-black {
+  @apply horse-header text-black-2
+}
+
+.horse-header-gray {
+  @apply horse-header text-grey-3
+}
+
+.horse-header-green {
+  @apply horse-header text-green-3
+}
+
+.horse-header-yellow {
+  @apply horse-header text-yellow-1
+}
+
+.horse-header-red {
+  @apply horse-header text-red-1
+}
+
+.racehistory-header-core {
+  @apply flex flex-row text-xs leading-6 items-center py-3
+}
+
+.racehistory-header-center {
+  @apply racehistory-header-core justify-center
+}
+
+.racehistory-header {
+  @apply racehistory-header-center font-bold text-black-2
+}
+
+.racehistory-header-start {
+  @apply racehistory-header-core font-bold justify-start
+}
+
+.racehistory-item {
+  @apply racehistory-header-center font-normal
+}
+
+.racehistory-item-start {
+  @apply racehistory-header-core font-normal justify-start
+}
+
+.predictor-race-header {
+  @apply p-5 flex flex-row items-center justify-center h-12 cursor-pointer
+}
+
+.predictor-race-body {
+  @apply p-5 flex flex-row items-center justify-center h-12
+}
