@@ -1,4 +1,3 @@
-/* eslint-disable react/prop-types */
 import { useCallback, useEffect, useState } from "react";
 
 import clsx from "clsx";
