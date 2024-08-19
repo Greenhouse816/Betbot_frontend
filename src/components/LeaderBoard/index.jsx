@@ -1,4 +1,3 @@
-/* eslint-disable react/prop-types */
 import { useState, useCallback, useEffect } from 'react'
 
 import Skeleton from "react-loading-skeleton";
