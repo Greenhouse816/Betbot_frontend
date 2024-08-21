@@ -10,4 +10,4 @@ const HorseProfile = () => {
   );
 };
 
-export default HorseProfile;
+export default HorseProfile;     
