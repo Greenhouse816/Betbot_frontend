@@ -188,7 +188,7 @@ const LeaderBoard = ({kind}) => {
                                         kind="trainer"
                                         setValue={(val) => setValue(val)}
                                         setSearch={(val) => setSearchStr (val)}
-                                    />
+                                    />      
                                 </div>
                             }
                             { kind !== "horse" &&
@@ -233,7 +233,7 @@ const LeaderBoard = ({kind}) => {
                                     setValue={(val) => setValue(val)}
                                 />
                             </div>
-                        </div>
+                        </div>    
                     </div>
                 </div>
                 <div className="flex flex-col bg-grey-4 border border-grey-2 rounded-[10px]">
