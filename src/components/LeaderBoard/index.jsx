@@ -83,7 +83,7 @@ const LeaderBoard = ({kind}) => {
         let [kind, value] = val;
         let tmp = { ...filterObj };
         tmp[kind] = value;
-        setFilter(tmp);
+        setFilter(tmp);   
     };
 
     jockeynames && jockeynames.map ((jockey) => {jockeys.add(jockey)})
@@ -128,7 +128,7 @@ const LeaderBoard = ({kind}) => {
     }, [searchStr])
 
     useEffect (() => {
-        const delayFn = setTimeout(async() => {
+        const delayFn = setTimeout(async() => { 
             const {k, v} = searchStr
             if (k && k !== "jockey") return
             setJockeyNames([initialValue["jockey"]])
@@ -279,7 +279,7 @@ const LeaderBoard = ({kind}) => {
                             onClick={() => {
                                 setSortedCol(SORT_FIELD.PLACE_PERCENT)
                                 setSortDirection(sortedCol !== SORT_FIELD.PLACE_PERCENT ? true : !sortDirection)
-                            }}
+                            }}                      
                         >
                             Place % {sortedCol === SORT_FIELD.PLACE_PERCENT ? (!sortDirection ? '↑' : '↓') : ''}
                         </div>
@@ -363,7 +363,7 @@ const LeaderBoard = ({kind}) => {
                                 {t?.average}
                             </div>
                             <div className="racehistory-item text-black-2">
-                                {t?.total}
+                                {t?.total}         
                             </div>
                         </div>
                         )
