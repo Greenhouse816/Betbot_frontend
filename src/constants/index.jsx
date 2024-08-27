@@ -21,7 +21,7 @@ import chestnutNRSvg from "../assets/gears/Chestnut-NoseRoll.svg";
 import chestnutPSvg from "../assets/gears/Chestnut-Pacifiers.svg";
 import chestnutWSvg from "../assets/gears/Chestnut-Winkers.svg";
 import chestnutBSvg from "../assets/gears/Chestnut-Blinkers.svg";
-import chestnutBFSvg from "../assets/gears/Chestnut-BlinkersFirstTime.svg";
+import chestnutBFSvg from "../assets/gears/Chestnut-BlinkersFirstTime.svg"; 
 import baySvg from "../assets/gears/Bay.svg";
 import bayBSvg from "../assets/gears/Bay-Blinkers.svg";
 import bayCONBSvg from "../assets/gears/Bay-CrossOverNoseBand.svg";
@@ -44,7 +44,7 @@ export const CLASS_LEVEL = {
     "85": "Class 2",
     "86": "Class 3",
     "87": "Class 4",
-    "88": "Class 5",
+    "88": "Class 5",               
     "89": "Class 6",
     "30": "Maiden Races",
     "4": "Open Handicap",
@@ -66,7 +66,7 @@ export const CLASS_LEVEL = {
     "206": "Benchmark 90",
     "207": "Benchmark 95",
     "208": "Benchmark 100",
-}
+}   
 
 export const START_FILTER_CNT = {
     "Last 10": 10,
@@ -127,7 +127,7 @@ export const TRACKS = {
             "BUNBURY",
             "PINJARRA",
             "ALBANY",
-            "NORTHAM",
+            "NORTHAM",           
             "GERALDTON",
             "ALICE SPRINGS",
             "DEVONPORT"
