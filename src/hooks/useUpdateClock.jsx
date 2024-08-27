@@ -4,6 +4,6 @@ const useUpdateClock = () => {
   const [, setForceUpdate] = useState();
   return () => setForceUpdate({});
 };
-
+ 
 export default useUpdateClock;   
 
