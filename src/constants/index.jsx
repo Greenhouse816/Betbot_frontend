@@ -10,7 +10,7 @@ import brownSvg from "../assets/gears/Brown.svg";
 import brownCONBSvg from "../assets/gears/Brown-CrossOverNoseBand.svg";
 import brownEMSvg from "../assets/gears/Brown-EarMuffs.svg";
 import brownNRSvg from "../assets/gears/Brown-NoseRoll.svg";
-import brownPSvg from "../assets/gears/Brown-Pacifiers.svg";
+import brownPSvg from "../assets/gears/Brown-Pacifiers.svg";          
 import brownWSvg from "../assets/gears/Brown-Winkers.svg";
 import brownBSvg from "../assets/gears/Brown-Blinkers.svg";
 import brownBFSvg from "../assets/gears/Brown-BlinkersFirstTime.svg";
