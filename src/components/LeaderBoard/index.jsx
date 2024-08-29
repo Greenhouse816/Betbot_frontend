@@ -20,7 +20,7 @@ const SORT_FIELD = {
     PLACE_ROI: 'placeRoi',
     FINISH_PERCENT: 'finishPercent',
     AVG: 'average',
-    TOTAL: 'total'
+    TOTAL: 'total'              
 }
 
 const LeaderBoard = ({kind}) => {
@@ -48,7 +48,7 @@ const LeaderBoard = ({kind}) => {
         ]),
         distances = new Set([
             initialValue["distance"],
-            "1000 - 1200",
+            "1000 - 1200",             
             "1300 - 1600",
             "1800 - 2200",
             "2400+",
