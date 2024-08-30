@@ -9,7 +9,7 @@ const PATHS = {
 
 const Header = () => {
     
-    const active = 
+    const active =                
         window.location.pathname === PATHS.PREDICTOR ? 0:
             window.location.pathname === PATHS.HORSE ? 1:
             window.location.pathname === PATHS.JOCKEY ? 2:
