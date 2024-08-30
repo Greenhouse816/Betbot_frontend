@@ -13,4 +13,4 @@ const LeaderboardLayout = () => {
     )
 }
 
-export default LeaderboardLayout;
+export default LeaderboardLayout;           
